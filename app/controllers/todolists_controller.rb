@@ -4,7 +4,7 @@ class TodolistsController < ApplicationController
        @list = List.new
   end
   
-  # 以下を追加
+  # 以下を追加！
   def create
       # ストロングパラメーターを使用
        list = List.new(list_params)
